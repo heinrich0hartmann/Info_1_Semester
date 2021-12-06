@@ -1,0 +1,16 @@
+B.4.1.5 Variablen
+
+Nicht zulässig sind
+
+2. 2be_or_not_to_be	Es wird nicht mit einer Zahl begonnen
+3. vorname.nachname	. ist nicht erlaubt
+5. #hashtag		Es wird nur mit _ oder einem Buchstaben begonnen
+4. _system		Name darf kein Schlüsselwort sein
+
+Zulässig sind
+
+1. variablenname
+6. SiebenMeilenStiefel
+
+
+
