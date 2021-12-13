@@ -27,7 +27,7 @@ B.4.1.6 Datentypen: Schlüsselwörter C++
 
 5.Booleschen Werten:		bool
 
-6.Natürlichen Zahlen:		int
+6.Natürlichen Zahlen:		unsigned double
 
 
 
