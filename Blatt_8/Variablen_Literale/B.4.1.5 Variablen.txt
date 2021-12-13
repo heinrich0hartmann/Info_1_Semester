@@ -15,15 +15,19 @@ Zulässig sind
 
 B.4.1.6 Datentypen: Schlüsselwörter C++
 
-1.Gleitpunktzahlen:
+1.Gleitpunktzahlen:		float (4 Byte), double (8 Byte), long double (10 Byte)
 
-2.Ganzen Zahlen:
+2.Ganzen Zahlen:		int	es gib jedoch je nach Bits verschiedene Typen
 
-3.Zeichen:
+3.Zeichen:			char
+	Unicode:		char16_t
+				char32_t
 
-4.Strings:
+4.Strings:			string
 
-5.Booleschen Werten:
+5.Booleschen Werten:		bool
 
-6.Natürlichen Zahlen:
+6.Natürlichen Zahlen:		int
+
+
 
