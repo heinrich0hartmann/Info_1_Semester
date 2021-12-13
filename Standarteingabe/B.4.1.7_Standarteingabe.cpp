@@ -27,9 +27,16 @@ int main(void)
 	cout << "" << endl;
 	cout << "" << endl;
 
-	string Ausgabe;
-	Ausgabe = Vorname + " " + Name;
+	string Ausgabe;													//Variable Ausgabe Initialisiert
+	Ausgabe = Vorname + " " + Name;									//In Variable Ausgabe wird Vorname und Nachname hinzugefügt
+	cout << Ausgabe << endl;
 
+	string str_PLZ;													//Variable Straße und Postleitzahl zum kombinieren von Wohnort, Straße und Hausnummer
+	ostringstream wandler1;
+	wandler1 << PLZ;
+	str_PLZ = wandler1.str();
+	Ausgabe = str_PLZ + " " + Wohnort;								//In Variable Ausgabe wird Straße und Wohnort hinzugefügt
+	cout << Ausgabe << endl;
 
 
 }
