@@ -40,11 +40,11 @@ int main(void)
 	Ausgabe = str_PLZ + " " + Wohnort;								//In Variable Ausgabe wird Straße und Wohnort hinzugefügt
 	cout << Ausgabe << endl;
 
-	string str_Hausnummer;
-	ostringstream wandler2;
+	string str_Hausnummer;											//Definiere Variable str_Hausnummer
+	ostringstream wandler2;											
 	wandler2 << Hausnummer;
 	str_Hausnummer = wandler2.str();
-	Ausgabe = Straße + " " + str_Hausnummer;
+	Ausgabe = Straße + " " + str_Hausnummer;						
 	cout << Ausgabe << endl;
 
 	cout << "" << endl;
