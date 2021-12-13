@@ -22,7 +22,7 @@ int main(void)
 	string Wohnort;													//Initialisierung String Wohnort
 	cin >> Wohnort;													//speichert Wohnort im Programm als Variable Wohnort
 
-	cout << "Bitte geben Sie Ihre Stra\xe1 e ein" << endl;		//Konsolenausgabe Frage Straﬂe
+	cout << "Bitte geben Sie Ihre Stra\xe1 e ein" << endl;			//Konsolenausgabe Frage Straﬂe
 	string Straﬂe;													//Initialisierung String Straﬂe
 	cin >> Straﬂe;													//speichert Straﬂe im Programm als Variable Straﬂe
 
