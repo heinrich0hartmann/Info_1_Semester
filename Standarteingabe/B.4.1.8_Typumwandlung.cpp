@@ -1,7 +1,10 @@
 #include<iostream>
+#include<string>
+#include<sstream>
+
 using namespace std;
 
-int main()
+int main(void)
 
 [
 	int 1;
