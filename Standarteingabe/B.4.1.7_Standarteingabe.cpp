@@ -14,11 +14,15 @@ int main(void)
 	string Vorname;													//Initialisierung Stringvariable Vorname
 	cin >> Vorname;													//speichert Nachnamen im Programm als Variable Vorname
 
+	cout << "Bitte geben Sie Ihre Postleitzahl ein" << endl;
+	int PLZ;
+	cin >> PLZ;
+
 	cout << "Bitte geben Sie Ihren Wohnort ein" << endl;			//Konsolenausgabe Frage Wohnort
 	string Wohnort;													//Initialisierung String Wohnort
 	cin >> Wohnort;													//speichert Wohnort im Programm als Variable Wohnort
 
-	cout << "Bitte geben Sie Ihre Stra\x223 \be ein" << endl;		//Konsolenausgabe Frage Straﬂe
+	cout << "Bitte geben Sie Ihre Stra\xe1 e ein" << endl;		//Konsolenausgabe Frage Straﬂe
 	string Straﬂe;													//Initialisierung String Straﬂe
 	cin >> Straﬂe;													//speichert Straﬂe im Programm als Variable Straﬂe
 
@@ -50,6 +54,8 @@ int main(void)
 	cout << "" << endl;
 	cout << "" << endl;
 	cout << "" << endl;
+
+	system("pause");
 
 	return 0;														//Programm Ende
 
