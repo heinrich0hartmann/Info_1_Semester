@@ -3,7 +3,9 @@
 #include<sstream>		//konvertierung Datentypen
 using namespace std;
 int main(void)
+
 {
+
 	cout << "Bitte geben Sie Ihren (Nach)Namen ein" << endl;		//Konsolenausgabe Frage Vornamen
 	string Name;													//Initaialisierung String Name
 	cin >> Name;													//speichert eingegebenen Namen im Programm als Variable Name
@@ -38,5 +40,17 @@ int main(void)
 	Ausgabe = str_PLZ + " " + Wohnort;								//In Variable Ausgabe wird Straße und Wohnort hinzugefügt
 	cout << Ausgabe << endl;
 
+	string str_Hausnummer;
+	ostringstream wandler2;
+	wandler2 << Hausnummer;
+	str_Hausnummer = wandler2.str();
+	Ausgabe = Straße + " " + str_Hausnummer;
+	cout << Ausgabe << endl;
+
+	cout << "" << endl;
+	cout << "" << endl;
+	cout << "" << endl;
+
+	return 0;														//Programm Ende
 
 }
