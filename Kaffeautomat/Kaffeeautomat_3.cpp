@@ -77,7 +77,7 @@ Machine choice_user() {
 			printInformation(kaffeeautomat);
 			break;
 		}
-		while (x == 'k' && 'e') {
+		while (x == 'k' || 'e') {
 			cout << "\nm\x94 \bchten sie Zucker(j/n)?\n";
 			cin >> z;
 			if (z == 'j') {
@@ -91,9 +91,11 @@ Machine choice_user() {
 				kaffeeautomat.user_drink.needed_money += drink.price_milk;
 			}
 			kaffeeautomat.stock = kaffeeautomat.stock - kaffeeautomat.drink_resource;
-			if (y != 'j' && 'n' && y != 'j' && 'n') {
-				cout << "\nfalsche eingabe!\n";
-				break;
+			if (z != 'j' && z != 'n' ) {
+				if (y != 'j' && z != 'n') {
+					cout << "\nfalsche eingabe!\n";
+					break;
+				}
 			}
 			return kaffeeautomat;
 		}
