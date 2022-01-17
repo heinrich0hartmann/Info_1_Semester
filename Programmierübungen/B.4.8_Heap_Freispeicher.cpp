@@ -10,7 +10,7 @@ int main()
 	int n;
 	cout << "Wie viele Messwerte wollen Sie im Heap speichern?" << endl; //Abfrage Werte
 	cout << "Eingabe: ";
-	cin << n;
+	cin >> n;
 	werte = new double[n]; //Initialisierung Werte
 	if (werte == 0)
 	{
