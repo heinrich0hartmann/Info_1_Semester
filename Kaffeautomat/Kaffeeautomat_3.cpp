@@ -98,7 +98,7 @@ bool choice_user(Machine* k) {
 		if (k->x == 's') {
 			cout << "\nservice-mode\n";
 			printInformation(kaffeeautomat);
-			return false;
+		return false;
 		}
 			cout << "\nm\x94 \bchten sie Zucker(j/n)?\n";
 			cin >> k->z;
